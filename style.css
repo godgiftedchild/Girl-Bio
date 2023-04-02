@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800&family=Sacramento&family=Yesteryear&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #191919;
+
+}
+
+.about img{
+    height: auto;
+    width : 420px;
+    box-shadow: 4px 4px 8px #f06;
+
+}
+
+.intro{
+    width : 550px;
+
+}
+
+.main{
+    width : 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro h1{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.intro h5{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;letter-spacing: 2px;
+}
+.intro h5 span{
+    color: #f06;
+}
+.intro p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 20px;
+
+}
+
+button{
+    background-color: #f06;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 13px 30px;
+    transition: .8s;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid #f06;
+    cursor: pointer;
+}
